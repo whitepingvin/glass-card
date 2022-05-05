@@ -1,2 +1,2 @@
-# templates
-My templates for portfolio
+# glass-card
+My template for portfolio
