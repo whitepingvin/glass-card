@@ -3,16 +3,84 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Templates for Portfolio</title>
+	<title>3D Glass Card</title>
 
 		<link rel="shortcut icon" href="img/favicon.png"/>
 		<link rel="stylesheet" href="/css/reset.css"/>
 	    <link href='css/style.css' rel='stylesheet' type='text/css' />
+	    <link rel="stylesheet" type="text/css"  href="css/quiz.css" />
 
     <script src='js/jquery-latest.js'></script>
     <script src='js/fontawesome.js'></script>
 </head>
 <body>
-	<h1>Скоро на всех экранах и мониторах!...=)</h1>
+	 <div class="container">
+	 	<div class="wrapper__card">
+	 		<header>
+	 			<div class="logo__card">
+	 				<a href="#"><img src="img/logo__wb.png" alt="logo__card"></a>
+	 			</div>
+	 			<div class="menubar">
+	 				<ul class="menu">
+	 					<li><a href="#">пройти&nbsp;тест</a></li>
+	 					<li><a href="#">тарифы</a></li>
+	 					<li><a href="#">стажировака</a></li>
+	 					<li><a href="#">о&nbsp;нас</a></li>
+	 				</ul>
+	 			</div><!-- /.menubar -->
+	 			<div class="entrybar">
+	 				<ul class="entry">
+	 					<li><a href="#">войти</a></li>
+	 					<li><a href="#">регистрация</a></li>
+	 				</ul>
+	 			</div><!-- /.entrybar -->
+	 		</header>
+	 		<main>
+	 			<div class="content">
+
+					<div class="quiz-box" id="quiz">
+					    <div class="quiz-header">
+					        <h2 id="question">Question text</h2>
+					        <ul>
+					            <li>
+					                <input type="radio" name="answer" id="a" class="answer">
+					                <label for="a" id="a_text">Question</label>
+					            </li>
+					            <li>
+					                <input type="radio" name="answer" id="b" class="answer">
+					                <label for="b" id="b_text">Question</label>
+					            </li>
+					            <li>
+					                <input type="radio" name="answer" id="c" class="answer">
+					                <label for="c" id="c_text">Question</label>
+					            </li>
+					        </ul>
+					    </div>
+					    <button id="submit">Ответить</button>
+					</div>
+	 				
+	 			</div><!-- /.content -->
+	 		</main>
+	 		<footer>
+	 			<div class="footer">
+	 				<div class="socialbar">
+	 					<ul class="social">
+	 						<li><a href="#"><i class="fa fa-vk" title="vk"></i></a></li>
+	 						<li><a href="#"><i class="fa fa-telegram" title="telegram"></i></a></li>
+	 						<li><a href="#"><i class="fa fa-linux" title="linux"></i></a></li>
+	 						<li><a href="#"><i class="fa fa-github" title="github"></i></a></li>
+	 						<li><a href="#"><i class="fa fa-codepen" title="codepen"></i></a></li>
+	 					</ul>	 					
+	 				</div><!-- /.socialbar -->
+	 			</div>
+	 		</footer>
+	 	</div><!-- /.wrapper__card -->
+	 	<div class="copy__block">(c) 2022 card</div>
+	 </div><!-- /.container -->
+
+
+	  <!-- Scripts -->
+ 	<script src="js/quiz.js"></script>
+
 </body>
 </html>
