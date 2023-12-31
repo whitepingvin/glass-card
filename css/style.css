@@ -125,8 +125,9 @@ main {
 }
 .socialbar {
     position: absolute;
-    bottom: -43px;
+    #bottom: -43px;
     left: 43px;
+	margin-top: 10%;
 }
 ul.social {
     display: flex;
@@ -136,7 +137,7 @@ ul.social li {
     margin-right: 20px;
 }
 ul.social li a {
-    color: #8292ca;
+    color: #f9f9f9;
 }
 ul.social li a:hover {
     color: #424c70;
